@@ -20,7 +20,7 @@ export class ApiService {
   getRandPhoto() {
     let width = this.getRandomInt(100, 500);
     let height = this.getRandomInt(100, 500);
-    return this.http.get(`https://cors-anywhere.herokuapp.com/https://picsum.photos/${width}/${height}`, {responseType: 'blob'});
+    return this.http.get(`https://picsum.photos/${width}/${height}`, {responseType: 'blob'});
   }
 
 }
