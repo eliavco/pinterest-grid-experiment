@@ -1,0 +1,4 @@
+<div *ngIf="type" [ngSwitch]="type">
+  <app-text *ngSwitchCase="0"></app-text>
+  <app-photo *ngSwitchCase="1"></app-photo>
+</div>
