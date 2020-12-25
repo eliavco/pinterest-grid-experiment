@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+var Bricklayer = require('bricklayer');
 
 @Component({
   selector: 'app-list',
